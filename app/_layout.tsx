@@ -9,6 +9,10 @@ export default function Layuot () {
                     name="index"
                     options={{ title: "Dolar americano"}}
                 />
+                <Drawer.Screen 
+                    name="euro"
+                    options={{ title: "Euro"}}
+                />
             </Drawer>
         </GestureHandlerRootView>
     )
